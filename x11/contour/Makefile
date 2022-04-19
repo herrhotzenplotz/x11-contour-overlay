@@ -1,6 +1,5 @@
 PORTNAME=	contour
-PORTREVISION=	2
-DISTVERSION=	v0.2.3.183
+DISTVERSION=	v0.3.0.198
 CATEGORIES=	x11
 
 MAINTAINER=	nsonack@outlook.com
@@ -10,8 +9,8 @@ LICENSE_FILE=	${WRKSRC}/LICENSE.txt
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	contour-terminal
-GH_TAGNAME=	9af2294
-GH_TUPLE=	contour-terminal:libunicode:94e0eea:contour/libunicode
+GH_TAGNAME=	7363c10d
+GH_TUPLE=	contour-terminal:libunicode:bcd20f35:contour/libunicode
 
 BUILD_DEPENDS=	catch>0:devel/catch \
 		microsoft-gsl>0:devel/microsoft-gsl \
